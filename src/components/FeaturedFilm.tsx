@@ -10,9 +10,7 @@ const FeaturedFilm = () => {
             Featured Film
           </div>
           <h1 className="font-serif text-4xl md:text-6xl font-semibold text-center">Captivating Film Creativity</h1>
-          <p className="text-lg text-muted-foreground">
-            A captivating story of adventure and self-discovery across untamed landscapes.
-          </p>
+          <p className="text-lg text-muted-foreground">Discover curated independent shorts and directly support filmmakers.</p>
           <div className="flex items-center space-x-4 pt-4">
             <Button className="gap-2">
               <PlayCircle className="h-5 w-5" />
