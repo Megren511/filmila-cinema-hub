@@ -1,10 +1,7 @@
-
 import { Button } from "@/components/ui/button";
 import { PlayCircle } from "lucide-react";
-
 const FeaturedFilm = () => {
-  return (
-    <div className="relative h-[80vh] w-full overflow-hidden">
+  return <div className="relative h-[80vh] w-full overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-background to-transparent" />
       <div className="relative container h-full flex items-center">
@@ -12,7 +9,7 @@ const FeaturedFilm = () => {
           <div className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-sm text-primary">
             Featured Film
           </div>
-          <h1 className="font-serif text-4xl md:text-6xl font-semibold">Captivating Film Creativity: Discover curated independent shorts and directly support filmmakers.</h1>
+          <h1 className="font-serif text-4xl md:text-6xl font-semibold text-center">Captivating Film Creativity: Discover curated independent shorts and directly support filmmakers.</h1>
           <p className="text-lg text-muted-foreground">
             A captivating story of adventure and self-discovery across untamed landscapes.
           </p>
@@ -25,8 +22,6 @@ const FeaturedFilm = () => {
           </div>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default FeaturedFilm;
