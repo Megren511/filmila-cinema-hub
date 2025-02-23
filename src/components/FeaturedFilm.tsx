@@ -9,7 +9,7 @@ const FeaturedFilm = () => {
           <div className="inline-flex items-center rounded-full bg-primary/10 px-3 py-1 text-sm text-primary">
             Featured Film
           </div>
-          <h1 className="font-serif text-4xl md:text-6xl font-semibold text-center">Captivating Film Creativity: Discover curated independent shorts and directly support filmmakers.</h1>
+          <h1 className="font-serif text-4xl md:text-6xl font-semibold text-center">Captivating Film Creativity</h1>
           <p className="text-lg text-muted-foreground">
             A captivating story of adventure and self-discovery across untamed landscapes.
           </p>
