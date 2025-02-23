@@ -36,7 +36,6 @@ const Index = () => {
       <Navbar />
       <main className="pt-16">
         <FeaturedFilm />
-        <FilmGrid title="Trending Now" films={mockFilms} />
         <FilmGrid title="New Releases" films={mockFilms} />
       </main>
     </div>
