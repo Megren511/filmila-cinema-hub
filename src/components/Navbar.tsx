@@ -25,9 +25,12 @@ const Navbar = () => {
             <Button variant="ghost" size="icon">
               <Search className="h-5 w-5" />
             </Button>
-            <Button variant="ghost" size="icon">
-              <User className="h-5 w-5" />
-            </Button>
+            <Link to="/viewer/login">
+              <Button variant="ghost" size="sm">Sign In</Button>
+            </Link>
+            <Link to="/filmmaker/login">
+              <Button variant="default" size="sm">Filmmaker Login</Button>
+            </Link>
           </div>
         </div>
       </div>
